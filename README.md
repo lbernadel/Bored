@@ -1,13 +1,15 @@
-# [!Bored](https://johnparkerhodges.github.io/Bored/)
+# [!Bored](https://lbernadel.github.io/Bored/)
 
 ![!Bored Landing Page](./assets/TeamFiles/images/Bored_LandingScreenshot.JPG)
 
 ## Description
-The purpose of this project was to utilize a new CSS framework that we haven't used in the past (so not Bootstrap) and server-side APIs to create an interactive application that addresses a problem of our choosing.
+The purpose of this project was to utilize a new CSS framework that we hadn't used in the past (so not Bootstrap) and server-side APIs to create an interactive application that addressed a problem of our choosing.
 
-> **User story:**
+**User story:**
 > As a member of my community,
+>
 > I want to be able to find various things to do,
+>
 > so that I can fully enjoy living here.
 
 !Bored allows the user to enter a zip code and then displays all upcoming events in that location to solve their boredom.
@@ -28,10 +30,10 @@ We chose the following framework and APIs:
 - Using local storage as a way to create sign in/out options, save events and remember the user's name
 
 ## Challenges
-- Focusing on the MVP...lots of time spent on the functionality of icebox features, which lead to superfluous frustration and breaking the MVP twice.
-- Understanding complex documentation for the Google APIs and the MDB framework
-- Getting the information to display properly in our results cards
-- Implementing our own color scheme to all elements
+- Focusing on the MVP...a lot of time was spent on the functionality of icebox features, which lead to superfluous frustration and breaking the MVP twice
+- Understanding the complex documentation for the Google APIs and the MDB framework
+- Getting the information to display properly in our results cards, especially when there were event results missing our fields of focus
+- Implementing our own color scheme to all elements across the site
 
 ### Sources
 1. Google Maps: [Maps](https://developers.google.com/maps/documentation/javascript/) API & [Places](https://developers.google.com/places/web-service/) API Documentation
@@ -44,12 +46,13 @@ We chose the following framework and APIs:
    * Typography Fonts - [Google Fonts](https://fonts.google.com/)
 
 ### Future Development (Embrace the ICEBOX!)
-- Implement the geolocation feature in such a way that if a user chooses to opt-in rather than type a zip code, it progress but if not, it directs them to the input field for a zip code instead if they decide to block geolocation.
-- Ability to search by city while avoiding mix ups between cities in multiple states that have the same name.
+- Implement the geolocation feature in such a way that if a user chooses to opt-in rather than type a zip code, it progresses but  if they decide to block geolocation, it directs them to the input field for a zip code instead.
+- Ability to search by city while avoiding mix ups between cities of the same name in different states.
 - Further filtering by location radius, date and time, other event categories, free vs. paid events, etc.
 - Ability to have a password & change the password
 - Posting to social media accounts via the application
-- History of attended events
+- History log of attended events
 - FAQ/Troubleshooting Information
-- Functional links to real company social media accounts
+- Functional links to created company social media accounts
 - Functional Contact page that users can submit feedback on app functionality (forwarded to GitHub as issues?)
+- Completed About Us page
